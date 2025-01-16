@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Monish k</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="top">
+            <header id="header">
+                <a class="logo">Monish.</a>
+                <nav class="navbar">
+                   <a href="#" class="active">Home</a>
+                   <a href="#experience">Experience</a>
+                   <a href="#education">Education</a>
+                   <a href="#skills">Skills</a>
+                   <a href="#contact">Contact</a>
+                </nav>
+                <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+                <div class="dropdown_menu">
+                   <a href="#" class="active">Home</a>
+                   <a href="#experience">Experience</a>
+                   <a href="#education">Education</a>
+                   <a href="#skills">Skills</a>
+                   <a href="#contact">Contact</a>
+                </div>
+            </header>
+           <div class="home">
+               <h3>INTRODUCING</h3>
+               <h1>Monish Portfolio</h1>
+               <h2>Programmer</h2>
+               <p>I’m a passionate programmer dedicated to crafting seamless, user-friendly, and visually striking web experiences. With a knack for turning ideas into interactive realities, I specialize in bringing designs to life with clean HTML, and creative CSS.</p>
+           </div>
+        </div>
+
+        <div class="content">
+            <h1>Qualifications</h1>
+            <div id="experience" class="experience">
+                <h2><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
+                <h3>Enterprise Administrative Computing(MIS) Intern</h3>
+                <p><i class="fa-solid fa-location-dot"></i> USP - Suva, Fiji</p>
+                <p><i class="fa-regular fa-calendar"></i> April - December 2024</p>
+                <br><hr><br>
+
+                <h3>Information Technology (IT) Support</h3>
+                <p><i class="fa-solid fa-location-dot"></i> USP - Suva, Fiji</p>
+                <p><i class="fa-regular fa-calendar"></i> Feb - April 2024</p>
+                <br><hr><br>
+            </div>
+
+            <div id="education" class="education">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                <h3>BSC in Computer Science and Information System</h3>
+                <p><i class="fa-solid fa-location-dot"></i> USP - Suva, Fiji</p>
+                <p><i class="fa-regular fa-calendar"></i> 2021 - 2024</p>
+                <br><hr><br>
+                
+                <h3 ><a href="https://www.udemy.com/share/101qYw3@FpRICZ45mlxOqUWccR3Cf335Uh1k7ZaCiUfb7GKvbDejf78iYn8ZDu_qSpg2sFsgow==/">Certificate in Full Stack Web Development</a></h3>
+                <p><i class="fa-solid fa-location-arrow"></i></i> Online Course</p>
+                <p><i class="fa-regular fa-calendar"></i> Dec 2024 - <em>Present</em></p>
+                <br><hr><br>
+            </div>
+            
+            <h1 id="skills">My Skills</h1>
+            <div class="skills">
+                <img class="img" src="./Image/html5.jpeg" alt="html">
+                <img class="img" src="./Image/css.jpeg" alt="CSS">
+                <img class="img" src="./Image/java.jpeg" alt="java">
+                <img class="img" src="./Image/js.jpeg" alt="js">
+                <img class="img" src="./Image/c.jpeg" alt="c#">
+                <img class="img" src="./Image/sql.jpeg" alt="sql">
+            </div>
+            
+            <h1>Get In Touch</h1>
+        </div>
+
+        <div id="contact" class="contact">
+            <div class="grid-container-contactinfo">
+                <div class="grid-item-contact1">
+                    <h3>ADDRESS:</h3>
+                    <p>Suva, Fiji.</p>
+                </div>
+                <div class="grid-item-contact2">
+                    <h3>E-MAIL:</h3>
+                    <p>kumarmonish304@gmail.com</p>
+                </div>
+                <div class="grid-item-contact3">
+                    <h4>Name:</h4>
+                    <input type="text" placeholder="Your Name" class="input">
+                    <h4>Email:</h4>
+                    <input type="text" placeholder="Your Email" class="input">
+                    <h4>Message:</h4>
+                    <textarea class="input_msg" placeholder="Type your message here..."></textarea><br>
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="copyright">
+                <p><i class="fa-regular fa-copyright"></i> 2025 Developed by <b>Monish Kumar</b>. All Right Reserved</p>
+            </div>
+            <div class="links">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn');
+            const dropdownMenu = document.querySelector('.dropdown_menu');
+
+            toggleBtn.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>
+
+
+
+
